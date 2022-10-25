@@ -6,18 +6,6 @@ RA: 12012827
 
 # Comparação de Desempenho:
 
-## Modo de Comparação:
-
-Utilizando o `System.currentTimeMillis()` foi criado uma varíavel no início e no fim do método de execução, para que assim pudessemos chegar a um valor aproximado.
-
-Levando em consideração que o tempo de execução do algoritmo em si depende de outros fatores, como por exemplos:
-
-- Retorno de outras Classes ` Random`.
-- Capacidade de processamento da máquina.
-
-Para chegarmos a um valor mais próximo do real possível, o algoritmo foi executado 5x em um espaço de tempo consideravél.
-O resultado aproximado abaixo é a média (soma dos valores (tempo em milissegundos) dividido por 5).
-
 ---
 
 # Avaliação de três modos diferentes:
