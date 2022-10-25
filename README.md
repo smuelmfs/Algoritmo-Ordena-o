@@ -4,7 +4,7 @@ RA: 12012827
 
 ```
 
-# Comparação de Desempenho:
+# Comparação de Desempenho
 
 ---
 
