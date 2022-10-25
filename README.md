@@ -106,6 +106,8 @@ E então, com a condicional abaixo, é decidido se o retorno será via o própri
 
 ## Conclusão:
 
-Com o Insertion Sort as coleções com um número menor de entradas classificam um objeto por vez. No entanto, ao classificar coleções maiores, ele muda rapidamente para mergeSort, que armazena partes de cada coleção em vez de organizar cada item individualmente. A razão para isso é que a ordenação de um único dado é muito mais rápida do que a ordenação de grandes grupos. O BubbleSort gira várias vezes pelo vetor. Toda vez que ele passa, ele coloca o maior elemento no topo. Isso ocorreu porque o algoritmo precisava percorrer os dados várias vezes antes de ser o último em todos os testes.
+InsertionSort é mais apropriado ao lidar com pequenas quantidades de dados, especialmente quando os dados provavelmente serão classificados ou parcialmente classificados.
+MergeSort é melhor para grandes quantidades de dados classificados aleatoriamente ou em ordem decrescente. Dados o seu dividir e conquistar, os dados já ordenados demoram mais neste algoritmo, o que vai atrapalhar os dados (devido ao fato da divisão) e ter que ordená-los novamente.
+BubbleSort faz um loop sobre o vetor várias vezes, colocando o maior elemento da sequência no topo a cada vez. Por ter que passar pelo vetor várias vezes, é final em todos os testes executados.
 
 ---
